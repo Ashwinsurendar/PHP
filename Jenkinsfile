@@ -8,14 +8,12 @@ pipeline {
                 echo "Hello"
                 }
             }
-        }
-
+        
         stage ('Testing Stage') {
 
             steps {
                 echo "World"
                 }
             }
-        }
     }
 }
